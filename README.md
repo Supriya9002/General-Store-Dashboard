@@ -20,7 +20,7 @@ A responsive, user-friendly dashboard for managing a general store's inventory, 
 ## 🛠️ Built With
 
 - HTML5
-- CSS3
+- Tailwind CSS 
 - JavaScript (Vanilla)
 
 
