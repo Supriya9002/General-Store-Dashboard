@@ -1,6 +1,6 @@
 const crudAPI =
   //   "https://crudcrud.com/api/679c9e4408624270844db7d7e8fac978/itemData";
-  "https://crudcrud.com/api/7f47af006ec345159db90da9c7ebd235";
+  "https://crudcrud.com/api/7f47af006ec345159db90da9c7ebd235/itemData";
 
 const myForm = document.querySelector("#my-form");
 const msg = document.querySelector("#msg");
