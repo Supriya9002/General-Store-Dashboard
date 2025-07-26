@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>General Store Inventory</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="p-4 bg-gray-100">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-2xl font-bold mb-4">General Store Dashboard</h1>
+
+      <form id="my-form" class="flex gap-2 mb-6">
+        <input
+          id="name"
+          type="text"
+          placeholder="Item Name"
+          class="border p-2 w-1/4"
+        />
+        <input
+          id="category"
+          type="text"
+          placeholder="Description"
+          class="border p-2 w-1/4"
+        />
+        <input
+          id="price"
+          type="number"
+          placeholder="Price"
+          class="border p-2 w-1/6"
+        />
+        <input
+          id="quantity"
+          type="number"
+          placeholder="Quantity"
+          class="border p-2 w-1/6"
+        />
+        <button id="btn" class="bg-blue-500 text-white px-4 py-2 rounded">
+          Add Item
+        </button>
+      </form>
+
+      <p id="msg" class="text-red-600 mb-4"></p>
+
+      <ul id="item-list" class="space-y-2"></ul>
+    </div>
+  </body>
+</html>
