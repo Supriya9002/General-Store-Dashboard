@@ -1,7 +1,6 @@
 
 
 
-```markdown
 # 🛒 General Store Dashboard
 
 A responsive, user-friendly dashboard for managing a general store's inventory, sales, and product details. This project is built using **HTML**, **CSS**, and **JavaScript** — no frameworks or libraries!
@@ -24,7 +23,5 @@ A responsive, user-friendly dashboard for managing a general store's inventory, 
 - CSS3
 - JavaScript (Vanilla)
 
-## 📁 Folder Structure
 
-```
 
